@@ -3,6 +3,12 @@ body {
     padding: 2rem;
     box-sizing: border-box;
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   
+
 }
 
 .speakers-section {
@@ -190,6 +196,19 @@ body {
 .carousel-control:hover {
     color: #007BFF;
     transform: scale(1.1);
+}
+
+.full-program-button{
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    align-self: center;
+    color: #fff;
+    font-weight: 600;
+    background-color:blue;
+    border: none;
+    border-radius: 10px;
+    
 }
 
 @media (max-width: 768px) {
